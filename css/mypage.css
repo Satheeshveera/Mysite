@@ -137,6 +137,8 @@ header a:hover{
     display: flex;
 }
 .l-skills p{
+
+
     font-size: 25px;
     font-style: italic;
     padding: 40px;
@@ -187,3 +189,36 @@ header a:hover{
      margin-bottom: 30px;
      margin-top: 20px;
 }
+/* Eduction Section================== */
+.education {
+    background-color: orange;
+    display: flex;
+    width: 100%;
+}
+
+.leducation-info img {
+    width: 400px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.reducation-info {
+    font-size: 25px;
+    font-style: italic;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 50px;    
+}
+ 
+.reducation-info table,th,td {
+    border-collapse: collapse;
+}
+.reducation-info h1 {
+    font-size: 35px;
+    margin-left: 10px; 
+    color:blueviolet;  
+}
+.margin {
+    margin-left: 100px;
+}
+
+/* contact section================-====== */
