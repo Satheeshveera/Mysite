@@ -31,7 +31,8 @@ header a:hover{
 /* 1st container=============================================== */
 
 .container{
-    display: flex; 
+    display: flex;
+     
 }
 
 /* Profile====================================================== */
@@ -110,10 +111,6 @@ header a:hover{
     background-color: lightgrey;
     display: flex;
 }
-.lr-about{
-     
-    width: 675px;
-}
 .labout-info img{
     width: 400px;
     padding: 120px;
@@ -128,3 +125,65 @@ header a:hover{
     font-size: 35px;
 }
  
+/* skill section================-====== */
+
+.skills{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    color: white;
+}
+.lr-skills{ 
+    display: flex;
+}
+.l-skills p{
+    font-size: 25px;
+    font-style: italic;
+    padding: 40px;
+    margin-top: 40px;
+}
+.skills h2{
+    margin: 20px;
+    font-size: 35px;
+    color: orange;
+}
+.html{
+    text-align: center;
+    background-color: rebeccapurple;
+    width: 500px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.css {
+    text-align: center;
+    background-color: rebeccapurple;
+    width: 375px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+     margin-bottom: 30px;
+     margin-top: 20px;
+}
+.js {
+    text-align: center;
+    background-color: rebeccapurple;
+    width: 300px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+     margin-bottom: 30px;
+     margin-top: 20px;
+}
+.java {
+    text-align: center;
+    background-color: rebeccapurple;
+    width: 350px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+     margin-bottom: 30px;
+     margin-top: 20px;
+}
