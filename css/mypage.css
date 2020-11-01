@@ -1,0 +1,122 @@
+body{
+    background-image: url();
+     font-family: Bradley Hand,
+     cursive;
+}
+
+/* header positions============================== */
+
+header{
+    position: fixed;
+    background-color: black;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    justify-content: center;     
+}
+header a{
+    margin: 5px;
+    margin-left: 31px;
+    color: orange;
+    text-decoration: none;
+    font-size: 22px;   
+}
+header a:hover{
+    text-decoration: underline;
+    color:white;
+    font-size: 24px;
+}
+
+/* 1st container=============================================== */
+
+.container{
+    display: flex; 
+}
+
+/* Profile====================================================== */
+
+.myprofile{
+    background: linear-gradient(to right,white 50%, orange 50%);
+    flex-basis: 40%;
+    height: 90vh; 
+    font-size: 35px;
+    color:blueviolet;
+    text-align: center;
+      
+}
+.myprofile img {
+    width: 300px;
+    margin-top:200px;
+    border-radius: 20px;
+    background: linear-gradient(to right, orange 50%, white 50%);
+}
+.myprofile p {
+    color: black;
+    padding: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.myprofile img:hover {
+    background: linear-gradient(to right, white 50%, orange 50%);
+}
+
+/* 1st left======================================================== */
+
+.leftside-details{
+    background-color:white;
+    flex-basis: 30%;
+    height: 90vh; 
+    font-size: 30px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.ld-info {
+    border: 5px solid;
+    border-image: linear-gradient(to bottom, orange,rgba(0, 0, 0, 0)) 1 100%;
+    margin-top: 250px;
+    margin-left: 40px;
+}
+
+/* 1st right======================================================= */
+
+.rightside-details {
+    background-color:orange;
+    flex-basis: 30%;
+    height: 90vh;
+    font-size: 30px;
+    text-align: center;
+}
+.rd-info {
+    border: 5px solid;
+    border-image: linear-gradient(to bottom, white, rgba(0, 0, 0, 0)) 1 100%;
+    margin-top: 250px;
+    margin-right: 40px;
+    color: white;
+}
+.rd-info img{
+    width: 50px;
+    color: white;
+}
+.rd-info img:hover{
+    filter: contrast(0);
+}
+
+ /* about section========================== */
+
+.about{
+    background-color: lightgrey;
+    display: flex;
+}
+.lr-about{
+    border: 1px solid black;
+    width: 675px;
+}
+.labout-info img{
+    width: 400px;
+    padding: 120px;
+}
+.rabout-info h1{
+   
+    font-size: 40px;
+}
+ 
